@@ -1,0 +1,21 @@
+.me_slide {
+  &__title {
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 46px;
+  }
+
+  &__text {
+    color: #979797;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+
+  &__img {
+    width: 380px;
+    height: 380px;
+    border: 25px solid #6b6b6b;
+  }
+}

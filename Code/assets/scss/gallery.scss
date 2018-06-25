@@ -1,0 +1,34 @@
+.gallery {
+  &__frame {
+    position: relative;
+    border: 5px solid #fff;
+  }
+
+  &__discribe {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 10px 0;
+    background: #00000088;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+}
+
+.gallery__frame:hover {
+  transition: all 0.5s;
+  border-color: #76c38f; 
+
+  .gallery__discribe {
+    transition: all 0.5s;
+
+    opacity: 0;
+  }
+}

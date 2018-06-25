@@ -1,0 +1,57 @@
+.container_width {
+  max-width: 960px;
+}
+
+.main {
+  background: #290000;
+
+  &_bg-light-red {
+    background-color: #660000;
+
+  }
+}
+
+.btn {
+  
+  &_nav {
+    padding: 13px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-transform: uppercase;
+    background-color: #76c38f00;
+    color: #ffffff; 
+
+
+    &:hover {
+      transition: all .5;
+      
+      color: #fff;
+      background-color: #76c38f;
+    }
+  }
+
+  &_slide {
+    padding: 13px 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.6px;
+    background-color: #76c38f;
+    color: #ffffff; 
+
+    &:hover {
+      transition: all .5;
+      
+      color: #fff;
+      background-color: #10cc4c;
+    }
+  }
+}
+
+
+@import "header";
+@import "me_slide";
+@import "cards";
+@import "works";
+@import "gallery";
+@import "footer";
