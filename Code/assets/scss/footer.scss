@@ -1,6 +1,19 @@
 .footer {
   color: #979797;
   font-size: 13px;
+  line-height: 20.8px;
+
+  &__row {
+    padding-top: 37px;
+
+    margin: 0 -10px !important;
+  }
+
+  &__col {
+    margin: 0 10px !important;
+
+    padding: 0;
+  }
 
   &__underground {
     padding: 23px 0;
@@ -11,6 +24,9 @@
   }
 
   &__title {
+    
+    margin-bottom: 30px;
+
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
@@ -27,6 +43,11 @@
   
   &_text_color_light-green {
     color: #76c38f;
+  }
+
+  &_text_list {
+    color: #76c38f;
+    line-height: 34.45px;
   }
 
   &_text_type_1 {
@@ -57,5 +78,25 @@
 
 }
 
-.list-group-item {
+
+.list-group-item_reset {
+  padding: 0;
+}
+
+.form-control_reset {
+  padding: 10px 11px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #222222;
+  color: #989898;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+}
+
+.form-group_reset {
+  margin-bottom: 10px;
 }

@@ -1,4 +1,8 @@
 .me_slide {
+  height: 430px;
+  margin-bottom: 50px;
+
+
   &__title {
     color: #ffffff;
     font-size: 46px;
@@ -14,8 +18,28 @@
   }
 
   &__img {
-    width: 380px;
-    height: 380px;
     border: 25px solid #6b6b6b;
   }
+}
+
+.carousel-control-prev_reset,
+.carousel-control-next_reset {
+  width: 60px;
+}
+
+.carousel-control-next-icon_reset,
+.carousel-control-right-icon_reset {
+  position: absolute;
+  right: 0;
+
+  transform: translateY(-25px);
+  width: 15px;
+  height: 28px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="28" viewBox="0 0 15 28"><defs><path id="dekna" d="M1079.57 338.96l-12.05-12.03a1.48 1.48 0 0 0-2.52 1.05l6.32 12.02-6.32 12.02a1.48 1.48 0 0 0 2.52 1.05l12.05-12.03a1.48 1.48 0 0 0 0-2.09z"/></defs><g><g transform="translate(-1065 -326)"><use fill="#76c38f" xlink:href="#dekna"/></g></g></svg>');
+}
+
+.carousel-control-right-icon_reset {
+  left: 0;
+
+  transform: translateY(-25px) rotate(180deg);
 }

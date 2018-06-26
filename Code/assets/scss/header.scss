@@ -1,6 +1,7 @@
 .header {
   border-top: 5px solid #76c38f;
   background: #290000;
+  padding-bottom: 37px;
 
   &__logo {
     &__title {
@@ -15,6 +16,26 @@
       font-size: 11px;
       font-weight: 400;
       line-height: 11px;
+      letter-spacing: 0.8px;
     }
   }
+}
+
+.navbar_reset {
+  padding: 0;
+  margin-top: 46px;
+  height: 37px;
+  width: 100%;
+}
+
+.navbar-nav_reset {
+  width: 100%;
+}
+
+.nav-item:first-child .btn_nav {
+  background-color: #76c38f;
+}
+
+.nav-item:last-child .btn_nav {
+  padding-right: 0 !important;
 }

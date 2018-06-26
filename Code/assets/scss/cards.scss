@@ -1,6 +1,8 @@
-.card-img-top_size {
+.card-img-top_type_1 {
   width: 120px;
   height: 120px;
+  border-radius: 0;
+  margin-bottom: 13px;
 }
 
 .card-title_type_1 {
@@ -9,9 +11,12 @@
   font-weight: 400;
   line-height: 32px;
   text-transform: uppercase;
+  margin-bottom: 17px;
 }
 
 .card-text_type_1 {
+  padding: 0 30px 22px 30px;
+
   color: #979797;
   font-size: 12px;
   font-weight: 400;
@@ -37,3 +42,15 @@
   }
 }
 
+.card_reset {
+  margin: 0 10px 40px 10px !important;
+
+  border: none;
+  padding: 21px 0 0 0;
+}
+
+.card-deck_reset {
+  margin: 0 -10px;
+
+  padding-top: 60px;
+}

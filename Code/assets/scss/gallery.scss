@@ -1,15 +1,18 @@
 .gallery {
   &__frame {
     position: relative;
+  }
+
+  &__img {
     border: 5px solid #fff;
   }
 
   &__discribe {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 5px;
+    left: 5px;
 
-    width: 100%;
+    width: 290px;
     padding: 10px 0;
     background: #00000088;
     color: #ffffff;
@@ -20,6 +23,9 @@
     opacity: 1;
   }
 
+  &__box {
+    margin-bottom: 30px;
+  }
 }
 
 .gallery__frame:hover {
