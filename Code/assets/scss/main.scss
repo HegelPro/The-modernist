@@ -17,8 +17,8 @@
   outline: none;
 
   &_nav {
-    padding: 10px 20px 10px 20px !important;
-    margin-top: -8px;
+    padding: 10px 19.5px 10px 19.5px !important;
+    margin-top: -10px;
     font-size: 13px;
     border-radius: 10px;
     font-weight: 400;
@@ -36,7 +36,7 @@
   }
 
   &_footer {
-    padding: 10px 12px;
+    padding: 10px 11px 11px 12px;
 
     border-radius: 10px;
 
@@ -50,14 +50,18 @@
   }
 
   &_slide {
-    padding: 13px 20px;
+    margin-left: 2px;
+    padding: 11px 16px 9px 15px;
     font-size: 13px;
     font-weight: 400;
+    letter-spacing: 0.4px;
     line-height: 15.6px;
-    color: #ffffff; 
+    color: #ffffff;
+    background-color: #76c38f;
+    border-radius: 10px;
 
     &:hover {
-      transition: all .5;
+      transition: all 0.5s;
       
       color: #fff;
       background-color: #10cc4c;

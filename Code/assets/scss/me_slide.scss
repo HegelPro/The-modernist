@@ -1,23 +1,33 @@
 .me_slide {
   height: 430px;
-  margin-bottom: 50px;
-
+  padding-top: 94px;
+  margin-left: 43px;
+  padding-right: 61px;
 
   &__title {
     color: #ffffff;
     font-size: 46px;
     font-weight: 400;
     line-height: 46px;
+    margin-bottom: 22px;
+    padding-left: 4px;
   }
 
   &__text {
     color: #979797;
     font-size: 12px;
     font-weight: 400;
+    letter-spacing: 0.8px;
+    word-spacing: -2px;
     line-height: 19.2px;
+    padding: 0px;
+    padding-left: 3px;
+    margin-bottom: 18px;
   }
 
   &__img {
+    margin-bottom: 50px;
+    margin-right: 60px;
     border: 25px solid #6b6b6b;
   }
 }
